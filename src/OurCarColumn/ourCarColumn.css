@@ -1,0 +1,127 @@
+.OurCarColumn{
+    background-image: url(/src/carImages/suvbenz.jpg);
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+}
+
+#navbar{
+    position: relative;
+    top: 30px;
+    background-color: #E9EBEC;
+}
+
+#logo{
+    color: #fc2626;
+    font-weight: 500;
+    text-decoration-style: none;
+}
+
+#logo:first-child{
+    text-decoration:underline  double;
+
+}
+
+.my-nav-cart{
+    background-color: #fb2726;
+    border-radius: 40px;
+    width: fit-content;
+    padding: 10px 10px 10px;
+}
+
+.my-nav-cart span{
+    position: relative;
+    bottom: 5px;
+    color: #ecf6f7;
+}
+
+.navLinks{
+    font-weight: 480;
+    color: #828585;
+    font-size: 16px;
+}
+
+.navLinks :hover{
+    color: black;
+}
+
+#NewCars{
+    color: #fb2726;
+    font-weight: 500;
+}
+
+.OurCarColumnDescription{
+    position: relative;
+    bottom: 70px;
+    background-color: #f9f8fd;
+    opacity: 0.9;
+}
+
+.OurCarColumnDescription h2{
+    letter-spacing: 4px;
+    font-weight: 550; 
+}
+
+h4.header{
+    letter-spacing: 6px;
+    font-weight: 500;
+}
+
+h4.header::first-letter{
+    border-bottom: #fc2626 solid 3px;
+}
+
+.item-name{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.For_All strong{
+    font-weight: 1px;
+    font-size: small;
+}
+
+.For_All .col{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.dollar{
+    color: #ff3720;
+    position: relative;
+    bottom: 9px;
+    left: 5.5px;
+}
+
+.itemPrice{
+    font-size: 23px;
+    color: #ff3720;
+    font-weight: 500;
+}
+
+.myCarBtn{    
+    font-size: small;
+    font-weight: bolder;
+    color: black;
+    border-top: #fc2626 2px solid;
+    padding: 12px 30px 12px;
+    background-color: #ecf6f7;
+}
+
+.myFooter{
+    background-color: #000000;
+    margin: 90px 0 0;
+}
+
+.myFooter p{
+    font-size: smaller;
+    margin-top: 20px;
+}
+
+.myCartBtn{
+    position: fixed;
+    bottom: 10px;
+    right: 10px; 
+    border-radius: 50px;
+    background-color: #ff3720;
+}

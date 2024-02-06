@@ -1,0 +1,131 @@
+.OurServices{
+    background-image: url(/src/carImages/benz.jpg);
+    background-size: cover;
+    height: 95vh;
+}
+
+#navbar{
+    position: relative;
+    top: 30px;
+    background-color: #E9EBEC;
+}
+
+#logo{
+    color: #fc2626;
+    font-weight: 500;
+    text-decoration-style: none;
+}
+
+#logo:first-child{
+    text-decoration:underline  double;
+}
+
+.navLinks{
+    font-weight: 480;
+    color: #828585;
+    font-size: 16px;
+}
+
+.navLinks :hover{
+    color: black;
+}
+
+#ourserviceLink{
+    color: #fb2726;
+    font-weight: 500;
+}
+
+.OurServicesDescription{
+    position: relative;
+    bottom: 68px;
+    background-color: #dee4e7;
+    opacity: 0.9;
+}
+
+.OurServicesDescription h2{
+    letter-spacing: 4px;
+    font-weight: 550;    
+}
+
+.OurServicesDescription h2::first-letter{
+    text-decoration: underline;
+    color: #fc2626;
+}
+
+.carDealer{
+    font-size: 20px;
+}
+
+.carDealer .text-danger{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.myWelcomeAddress  article{
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.accordions{
+    margin: 7pc 0 0;
+}
+
+.newsletters{
+    background-color: #f9f8fd;
+    padding: 3pc 2pc 2pc;
+    margin-top: 4pc;
+}
+
+.newsletters h4{
+    font-weight: 650;
+}
+
+.newsletters .input{
+    padding: 1pc 1pc 1pc;
+    border: none;
+    border-bottom: 1px solid #828585;
+}
+
+.newsletters .btn{
+    padding: 1pc 2pc 1pc;
+    border-radius: 30px;
+    font-weight: 500;
+    background-color: #fc2626;
+}
+
+.gallery{
+    margin: 7pc  0 0;
+}
+
+.gallery h3{
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+
+.gallery h3::first-letter{
+    border-bottom: #fc2626 2px solid; 
+}
+
+.gallery img{
+    height: 200px;
+}
+
+.location-map{
+    margin: 7pc  0 0;
+
+}
+
+.location-map h3{
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+
+.myFooter{
+    background-color: #000000;
+    margin: 90px 0 0;
+}
+
+.myFooter p{
+    font-size: smaller;
+    margin-top: 20px;
+}

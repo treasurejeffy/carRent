@@ -1,0 +1,169 @@
+[
+   {
+      "img": "https://imgd-ct.aeplcdn.com/370x208/n/cw/ec/141125/kwid-exterior-right-front-three-quarter.png?isig=0&q=75",
+      "name": "Renault Kwid",
+      "doors": 4,
+      "year": 2022,
+      "millage": "3000km",
+      "Gearbox":  "Manual",
+      "Engine":   "4.5L Lp Petrol",
+      "AC": "Used",
+      "price": 85.00
+   },
+   {
+      "img":   "https://imgd-ct.aeplcdn.com/370x208/n/cw/ec/140809/innova-crysta-exterior-right-front-three-quarter.png?isig=0&q=75",
+      "name":  "Toyota Innova Crysta",
+      "doors": 4,
+      "year": 2022,
+      "millage": "3000km",
+      "Gearbox":  "Manual",
+      "Engine":   "4.5L Lp Petrol",
+      "AC": "Used",
+      "price": 539.00
+   },
+   {
+      "img":  "https://imgd-ct.aeplcdn.com/370x208/n/cw/ec/105799/rumion-exterior-right-front-three-quarter-2.jpeg?isig=0&q=75",
+      "name": "Toyota Rumion ",
+      "doors": 4,
+      "year": 2022,
+      "millage": "3000km",
+      "Gearbox":  "Manual",
+      "Engine":   "4.5L Lp Petrol",
+      "AC": "Used",
+      "price": 536.00
+   },
+   {
+      "img":   "https://imgd-ct.aeplcdn.com/370x208/n/cw/ec/45951/amaze-facelift-exterior-right-front-three-quarter.jpeg?isig=0&q=75",
+      "name":   "Honda Amaze",
+      "doors": 4,
+      "year": 2022,
+      "millage": "3000km",
+      "Gearbox":  "Manual",
+      "Engine":   "4.5L Lp Petrol",
+      "AC": "Used",
+      "price": 90.00
+   },
+   {
+      "img":   "https://imgd-ct.aeplcdn.com/370x208/n/cw/ec/139739/land-cruiser-exterior-right-front-three-quarter.jpeg?isig=0&q=75",
+      "name":  "Toyota Land Cruiser",
+      "doors": 4,
+      "year": 2022,
+      "millage": "3000km",
+      "Gearbox":  "Manual",
+      "Engine":   "4.5L Lp Petrol",
+      "AC": "Used",
+      "price": 742.00
+   },
+   {
+      "img":   "https://imgd-ct.aeplcdn.com/370x208/n/cw/ec/153319/2023-range-rover-velar-exterior-right-front-three-quarter-2.jpeg?isig=0&q=75",
+      "name":  "Land Rover Range Rover Velar",
+      "doors": 4,
+      "year": 2022,
+      "millage": "3000km",
+      "Gearbox":  "Manual",
+      "Engine":   "4.5L Lp Petrol",
+      "AC": "Used",
+      "price": 569.00
+   },
+   {
+      "img":   "https://imgd-ct.aeplcdn.com/370x208/n/cw/ec/150621/g-class-exterior-right-front-three-quarter-2.jpeg?isig=0&q=75",
+      "name":   "Mercedes-Benz G-Class",
+      "doors": 4,
+      "year": 2022,
+      "millage": "3000km",
+      "Gearbox":  "Manual",
+      "Engine":   "4.5L Lp Petrol",
+      "AC": "Used",
+      "price": 892.99
+   },
+   {
+      "img":   "https://imgd-ct.aeplcdn.com/370x208/n/cw/ec/149525/a-class-limousine-exterior-right-front-three-quarter-2.jpeg?isig=0&q=75",
+      "name":   "Mercedes-Benz A-Class Limousine",
+      "doors": 4,
+      "year": 2022,
+      "millage": "3000km",
+      "Gearbox":  "Manual",
+      "Engine":   "4.5L Lp Petrol",
+      "AC": "Used",
+      "price": 95.00
+   },
+   {
+      "img":   "https://imgd-ct.aeplcdn.com/370x208/n/cw/ec/130583/hector-facelift-exterior-right-front-three-quarter-3.jpeg?isig=0&q=75",
+      "name":   "MG Hector",
+      "doors": 4,
+      "year": 2022,
+      "millage": "3000km",
+      "Gearbox":  "Manual",
+      "Engine":   "4.5L Lp Petrol",
+      "AC": "Used",
+      "price": 99.00
+   },
+   {
+      "img":   "https://imgd-ct.aeplcdn.com/370x208/n/cw/ec/142515/elevate-exterior-left-front-three-quarter-4.jpeg?isig=0&q=75",
+      "name":   "Honda Elevate",
+      "doors": 4,
+      "year": 2022,
+      "millage": "3000km",
+      "Gearbox":  "Manual",
+      "Engine":   "4.5L Lp Petrol",
+      "AC": "Used",
+      "price": 200.00
+   },
+   {
+      "img":   "https://imgd-ct.aeplcdn.com/370x208/n/cw/ec/115025/innova-hycross-exterior-right-front-three-quarter-2.jpeg?isig=0&q=75",
+      "name":  "Toyota Innova Hycross",
+      "doors": 4,
+      "year": 2022,
+      "millage": "3000km",
+      "Gearbox":  "Manual",
+      "Engine":   "4.5L Lp Petrol",
+      "AC": "Used",
+      "price": 490.00
+   },
+   {
+      "img":   "https://imgd-ct.aeplcdn.com/370x208/n/cw/ec/144689/taigun-exterior-right-front-three-quarter.jpeg?isig=0&q=75",
+      "name":  "Volkswagen Taigun",
+      "doors": 4,
+      "year": 2022,
+      "millage": "3000km",
+      "Gearbox":  "Manual",
+      "Engine":   "4.5L Lp Petrol",
+      "AC": "Used",
+      "price": 180.00
+   },
+   {
+      "img":   "https://imgd-ct.aeplcdn.com/370x208/n/cw/ec/140591/new-x1-exterior-right-front-three-quarter-2.jpeg?isig=0&q=75",
+      "name":  "BMW X1",
+      "doors": 4,
+      "year": 2022,
+      "millage": "3000km",
+      "Gearbox":  "Manual",
+      "Engine":   "4.5L Lp Petrol",
+      "AC": "Used",
+      "price": 520.00
+   },
+   {
+      "img":   "https://www.mercedes-benz-trucks.com/content/dam/mbo/markets/hq_HQ/model-navigation-images/en_id/actros-distribution-IND.png",
+      "name":   "Actros",
+      "Engine":   "OM 907 LA, 6.5 Cylinder",
+      "model":   "G131 - 9 / 14.57-1.00",
+      "Gearbox":  "Manual",
+      "year":  2022,
+      "millage": "5000km",
+      "doors": 4,
+      "AC": "Used",
+      "price": 58000
+   },
+   {
+      "img":   "https://www.mercedes-benz-trucks.com/content/dam/mbo/markets/hq_HQ/model-navigation-images/en_id/axor-distribution-IND.png",
+      "name":  "Axor 4028 T",
+      "Engine":   "OM 906 LA, 6 Cylinder ",
+      "model":   "G131 - 9 / 14.57-1.00",
+      "Gearbox":  "Manual",
+      "year":  2022,
+      "millage": "5200km",
+      "doors": 4,
+      "AC": "Used",
+      "price": 58200
+   }
+]

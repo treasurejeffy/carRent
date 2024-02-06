@@ -1,0 +1,74 @@
+.aboutUs{
+    background-image: url(/src/carImages/bmw.jpg);
+    background-size: cover;
+    height: 95vh;
+}
+
+#navbar{
+    position: relative;
+    top: 30px;
+    background-color: #E9EBEC;
+}
+
+#logo{
+    color: #fc2626;
+    font-weight: 500;
+    text-decoration-style: none;
+}
+
+#logo:first-child{
+    text-decoration:underline  double;
+
+}
+
+.navLinks{
+    font-weight: 480;
+    color: #828585;
+    font-size: 16px;
+}
+
+.navLinks :hover{
+    color: black;
+}
+
+#aboutus{
+    color: #fb2726;
+    font-weight: 500;
+}
+
+.AboutUsDescription {
+    position: relative;
+    bottom: 70px;
+    background-color: #dee4e7;
+    opacity: 0.9;
+}
+
+.AboutUsDescription h2{
+    letter-spacing: 4px;
+    font-weight: 500;
+    
+}
+
+.AboutUsDescription h2::first-letter{
+    text-decoration: underline;
+    color: #fc2626;
+}
+
+.carDealer{
+    font-size: 20px;
+}
+
+.myWelcomeAddress  article{
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.myFooter{
+    background-color: #000000;
+    margin: 90px 0 0;
+}
+
+.myFooter p{
+    font-size: smaller;
+    margin-top: 20px;
+}

@@ -1,0 +1,421 @@
+*{
+    font-family: "Sofia", sans-serif;
+  }
+
+@media  screen and (max-width: 699px) and (min-width: 200px) {
+    #banner{
+        /* background-image: url(../carImages/lambos.jpg); */
+        background-color: #fd6c38;  
+    }
+    .myCartBtn {
+        display: none;
+    }
+}
+
+#banner{
+    height: 100vh;
+    background-image: url(../carImages/lambos.png);
+    background-size: cover;
+}
+
+#navbar{
+    position: relative;
+    top: 30px;
+    background-color: #E9EBEC;
+}
+
+.myCartBtn{
+    position: fixed;
+    bottom: 10px;
+    right: 10px; 
+    background-color: #ff3720;
+    padding: 13.5px 15px 13.5px;
+}
+
+.myCartImg{
+    font-size: larger;
+}
+
+.myCartNo{
+    position: relative;
+    bottom: 10px;
+    right: 5px;
+}
+
+#logo{
+    color: #fc2626;
+    font-weight: 500;
+}
+
+#logo:first-child{
+    text-decoration:underline  double;
+
+}
+
+.navLinks{
+    font-weight: 480;
+    color: #828585;
+    font-size: 16px;
+}
+
+.navLinks :hover{
+    color: black;
+}
+
+#home{
+    color: #fb2726;
+    font-weight: 500;
+}
+
+.ShoppingCart{
+    border-radius: 60px;
+    background-color: hsl(6, 100%, 56%);
+    width: fit-content;
+    padding: 10px 10px 10px;
+}
+
+.ShoppingCart:hover{
+    background-color: #f01212;
+}
+
+.ShoppingCartImg{
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+.searchIcon img{
+    height: 34px;
+    padding: 10px 5px 10px;
+}
+
+.myCartCounter{
+    background-color: #ffff;
+    position: relative;
+    left: 3.5px;
+    bottom: 0.5px;
+    font-weight: 470;
+    border-radius: 19px;
+    padding: 1px 10px 4px;
+    color: #fb2726;
+    margin-right: 5px;
+}
+
+.offcanvas-header{
+    font-size: large;
+    text-shadow: 1px 1px red;
+}
+
+.cartName{
+    font-size: small;
+}
+
+.cartImgs{
+    height: 60px;
+}
+
+.deleteItem{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.mybannerDescription{
+    position: relative;
+    top: 25vh;
+}
+
+.mybannerDescription p{
+    width: fit-content;
+    padding: 1px 12px 1px ;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #ffff;
+    background-color: #fc2626;
+}
+
+.mybannerDescription h2{
+    color: #ffff;
+    letter-spacing: 4px;
+    line-height: 1.8;
+    font-weight: 350;
+}
+
+.mybannerPrice{
+    color: #E9EBEC;
+    font-weight: 400;
+}
+
+.mybannerPrice span{
+    text-decoration:line-through double;
+}
+
+.mybannerbtn{
+    margin-top: 30px;
+    opacity: 0.6;
+    font-size: 13px;
+    font-weight: 600;
+    border-top: #fc2626 2px solid;
+}
+
+.form-search{
+    opacity: 0.9;
+}
+
+.mySearchForm{
+    position: relative;
+    bottom: 55px;
+}
+
+.mySearchForm .text{
+    font-size: small;
+}
+
+.mySearchForm button{
+    font-size: 13px;
+    background-color: #fc2626;
+    padding-right: 20px;
+    border: none;
+}
+
+.mySearchDisplay{
+    background-color: #F0F0F0;
+}
+
+.mySearchDisplay .response .myproduct{
+    background-color: #F0F0F0;
+    margin: 0 2px 28px;
+    border: #F0F0F0;
+    display: inline-block;
+}
+
+.mySearchDisplay .response .myproduct:hover{
+    opacity: 0.9;
+    box-shadow: #505252 2px 2px 2px;
+}
+
+.mySearchDisplay .response .myproduct .mypdTitle{
+    font-size: small;
+    font-weight: 500;
+}
+
+.mySearchDisplay .response .myproduct .btn{
+    width: max-content;
+    justify-content: center;
+    background-color: #ff3720;
+    margin: 0 0 20px ;
+}
+
+.mySearchDisplay .response .myproduct .btn:hover{
+    box-shadow: #fd6c38 3px 4px 3px;
+    background-color: #fb2726;
+}
+
+.myWelcomeAddress{
+    margin: 50px 0 70px;
+}
+
+.myWelcomeAddressHeader{
+    letter-spacing: 4px;
+    line-height: 1.8;
+    font-weight: 350;
+    margin: 20px 0 40px;
+}
+
+.myWelcomeAddressHeader span{
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ff3720;
+}
+
+.myWelcomeAddress p{
+    font-size: smaller;
+    color: #505252;
+}
+
+.carDealer{
+    font-size: small;
+}
+
+.myWelcomeAddress  article{
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.OurImportantPricesAwards{
+    background-color: #fb2726;
+}
+
+.OurImportantPricesAwards2Col{
+    border-radius: 70px;
+    background: repeating-radial-gradient(#fd6c38, #fb2726 10%, #fd6c38 19%);
+    opacity: 0.5;
+}
+
+.interiorCarBg{
+    background-image: url('https://plus.unsplash.com/premium_photo-1682125740214-fcddeef28561?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGludGVyaW9yJTIwY2FyfGVufDB8fDB8fHww');
+    background-size: cover;
+    padding: 40px 0 50px;
+}
+
+.interiorCarBg .first-col p{
+    padding: 0 30px 20px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #fb2726;
+}
+
+.interiorCarBg .second-col{
+    background: linear-gradient(to right,  #E9EBEC,#D8DDE1);
+}
+
+.interiorCarBg .second-col p{
+    padding: 40px 30px 20px;
+    font-size: 14px;
+    gap: 20px;
+}
+
+.mycar{
+    background-image: url('https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+.mycardescription{
+    margin: 32pc 0 10px;
+}
+
+.mycardescription p{
+    font-size: smaller;
+    color: #F0F0F0;   
+} 
+
+.mycarbtn{
+    opacity: 0.6;
+    font-size: 13px;
+    font-weight: 600;
+    border-top: #fc2626 2.9px solid;
+}
+
+.my-new-vehicles h3{
+    padding: 10pc 0 0;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+.item-name{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.For_All strong{
+    font-weight: 1px;
+    font-size: small;
+}
+
+.For_All .col{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.dollar{
+    color: #ff3720;
+    position: relative;
+    bottom: 9px;
+    left: 5.5px;
+}
+
+.itemPrice{
+    font-size: 23px;
+    color: #ff3720;
+    font-weight: 500;
+}
+
+.myCarBtn{    
+    font-size: small;
+    font-weight: bolder;
+    color: black;
+    border-top: #fc2626 2px solid;
+    padding: 12px 30px 12px;
+    background-color: #ecf6f7;
+}
+
+.customersReport{
+    background-image: url('https://media.istockphoto.com/id/1211155798/photo/blank-white-gradient-background-with-product-display-white-backdrop-or-empty-studio-with-room.webp?b=1&s=170667a&w=0&k=20&c=4u7N0UjljW8VLyLBdvmLE31DwY5L-f3zoWYejvExAlk=');
+    background-size: cover;
+    background-color: #E9EBEC; 
+    margin-top: 7pc;
+}
+
+.customersReport h3{ 
+    padding: 7pc 0 0;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+.customersReport .Row{
+    padding: 4pc 0 7pc;
+}
+
+.customersReport img{
+    height: 300px;
+    width: fit-content;
+}
+
+#newsletter h3{
+    padding: 4pc 0 0;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+#newsletter p{
+    font-size: small;
+    margin-bottom: 2.5pc;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 4pc;
+}
+
+.flex {
+    width: fit-content;
+    padding:1px 0 1px;
+    background-color: #ffffff;
+    flex-direction:row;
+}
+
+.flex:focus-within { 
+    outline: 1px solid #828585 ;
+}
+
+.inputfield {
+    border: none;
+    flex-grow: 4;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: 2px;
+}
+
+.inputfield:focus {
+    outline: none;
+}
+
+.flex button{
+    background-color: #fb2726;
+    color: #EDEDED;
+    font-weight: 800;
+    padding: 8px 13px 8px;
+}
+
+.myFooter{
+    background-color: #000000;
+}
+
+.myFooter p{
+    font-size: smaller;
+    margin-top: 20px;
+}

@@ -1,0 +1,44 @@
+.ContactUs{
+    background-image: url(../carImages/AMGbenz.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+*{
+    font-family: "Sofia", sans-serif;
+}
+
+.contacUsdescription{
+    position: relative;
+    bottom: 70px;
+    background-color: #f9f8fd;
+    opacity: 0.9;
+}
+
+.contacUsdescription h2{
+    letter-spacing: 4px;
+    font-weight: 550; 
+}
+
+.contactDetail h5{
+    font-weight: 560;
+    letter-spacing: 1px;
+}
+
+.socialMedia{
+    cursor: pointer;
+}
+
+.contactSupImg{
+    font-size: 40px;
+}
+
+.myFooter{
+    background-color: #000000;
+    margin: 90px 0 0;
+}
+
+.myFooter p{
+    font-size: smaller;
+    margin-top: 20px;
+}

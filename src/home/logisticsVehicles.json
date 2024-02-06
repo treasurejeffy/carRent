@@ -1,0 +1,28 @@
+[
+   {
+      "img":   "https://www.mercedes-benz-trucks.com/content/dam/mbo/markets/hq_HQ/model-navigation-images/en_id/actros-distribution-IND.png",
+      "name":   "Actros",
+      "exteriorH": "Exterior length [mm] 2280 ",
+      "exteriorW":   "Exterior width [mm] 2500 ",
+      "interiorH":   "Interior height [mm] 1920 ",
+      "interiorW":   "Interior width [mm] 2260",
+      "AC": "Used"
+   },
+   {
+      "img":   "https://www.mercedes-benz-trucks.com/content/dam/mbo/markets/hq_HQ/model-navigation-images/en_id/axor-distribution-IND.png",
+      "name":  "Axor 4028 T",
+      "Engine":   "OM 906 LA, 6 Cylinder",
+      "model":   "G131 - 9 / 14.57-1.00",
+      "Gearbox":  "Manual & Total gear =9-speed forward + 1-speed reverse",
+      "AC": "Used"
+   },
+   {
+      "img":   ""
+   },
+   {
+      "img":   ""
+   },
+   {
+      "img":   ""
+   }
+]
