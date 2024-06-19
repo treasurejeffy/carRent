@@ -1,6 +1,8 @@
-*{
-    font-family: "Sofia", sans-serif;
-  }
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,376;1,6..12,376&family=Nunito:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,376;1,6..12,376&family=Nunito:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,376;1,6..12,376&family=Nunito:ital,wght@0,700;1,700&family=Roboto+Slab:wght@100..900&display=swap');
+
 
 @media  screen and (max-width: 699px) and (min-width: 200px) {
     #banner{
@@ -10,6 +12,10 @@
     .myCartBtn {
         display: none;
     }
+}
+
+.logo{
+    font-weight: 800;
 }
 
 #banner{
@@ -42,29 +48,25 @@
     right: 5px;
 }
 
-#logo{
-    color: #fc2626;
-    font-weight: 500;
-}
-
 #logo:first-child{
     text-decoration:underline  double;
-
+    color: #fc2626;
+    font-weight: 800;
 }
 
-.navLinks{
-    font-weight: 480;
-    color: #828585;
-    font-size: 16px;
+.navlinks{
+    font-size: smaller;
+    font-weight: 700;
 }
 
-.navLinks :hover{
-    color: black;
+.navlinks:hover{
+    color: #f01212;
 }
 
 #home{
     color: #fb2726;
-    font-weight: 500;
+    font-size: smaller;
+    font-weight: 700;
 }
 
 .ShoppingCart{
@@ -87,18 +89,6 @@
 .searchIcon img{
     height: 34px;
     padding: 10px 5px 10px;
-}
-
-.myCartCounter{
-    background-color: #ffff;
-    position: relative;
-    left: 3.5px;
-    bottom: 0.5px;
-    font-weight: 470;
-    border-radius: 19px;
-    padding: 1px 10px 4px;
-    color: #fb2726;
-    margin-right: 5px;
 }
 
 .offcanvas-header{
@@ -168,6 +158,10 @@
     bottom: 55px;
 }
 
+.mycars:hover{
+    transform: rotateY(150deg);
+}
+
 .mySearchForm .text{
     font-size: small;
 }
@@ -185,7 +179,7 @@
 
 .mySearchDisplay .response .myproduct{
     background-color: #F0F0F0;
-    margin: 0 2px 28px;
+    margin: 0 4px 28px;
     border: #F0F0F0;
     display: inline-block;
 }
@@ -196,8 +190,10 @@
 }
 
 .mySearchDisplay .response .myproduct .mypdTitle{
-    font-size: small;
-    font-weight: 500;
+    font-size: 17px;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal
 }
 
 .mySearchDisplay .response .myproduct .btn{
@@ -229,17 +225,28 @@
 }
 
 .myWelcomeAddress p{
-    font-size: smaller;
-    color: #505252;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .carDealer{
-    font-size: small;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
 }
 
 .myWelcomeAddress  article{
     letter-spacing: 1px;
-    font-size: 15px;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 376;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
 }
 
 .OurImportantPricesAwards{
@@ -305,31 +312,47 @@
 }
 
 .item-name{
-    font-size: 18px;
-    font-weight: bolder;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal
 }
 
 .For_All strong{
-    font-weight: 1px;
-    font-size: small;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+    padding-right: 5px;
 }
 
 .For_All .col{
-    font-size: 16px;
-    font-weight: 500;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.price{
+    padding: 10px 0;
+}
+
+.price b{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal
 }
 
 .dollar{
     color: #ff3720;
     position: relative;
+    font-family: "Merriweather", serif;
     bottom: 9px;
     left: 5.5px;
 }
 
 .itemPrice{
-    font-size: 23px;
     color: #ff3720;
-    font-weight: 500;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
 }
 
 .myCarBtn{    
@@ -359,8 +382,16 @@
 }
 
 .customersReport img{
-    height: 300px;
-    width: fit-content;
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.article{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #newsletter h3{
@@ -370,7 +401,10 @@
 }
 
 #newsletter p{
-    font-size: small;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
     margin-bottom: 2.5pc;
 }
 
@@ -388,16 +422,18 @@
 }
 
 .flex:focus-within { 
-    outline: 1px solid #828585 ;
+    outline: 1px solid white;
+    border: none;
 }
 
 .inputfield {
     border: none;
     flex-grow: 4;
-    font-size: 20px;
-    font-weight: 600;
-    margin-right: 10px;
-    margin-left: 2px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 8px;
 }
 
 .inputfield:focus {
@@ -408,6 +444,10 @@
     background-color: #fb2726;
     color: #EDEDED;
     font-weight: 800;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
     padding: 8px 13px 8px;
 }
 

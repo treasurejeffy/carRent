@@ -38,7 +38,7 @@ export default function MyNewestCars(props) {
                                 {myproduct.map((item,index,latestVehicles)=>{
                                     return(
                                         <div className="mt-5 For_All  " key={index}>
-                                            <img src={item.img} alt={item.name} className="justify-content-center pb-2"/>
+                                            <img src={item.img} alt={item.name} className=" justify-content-center  img-fluid mycars pb-2"/>
                                             <h5 className="item-name pb-3">{item.name}</h5>          
                                             <Row md={2} lg={2} xl={2} sm={2} xs={2} className="pb-1">                                                
                                                 <Col><strong>AC: </strong>{item.AC}</Col>
@@ -47,7 +47,7 @@ export default function MyNewestCars(props) {
                                                 <Col><strong>Millage:</strong> {item.millage}</Col>
                                                 <Col><strong>Gearbox: </strong>{item.Gearbox}</Col>
                                                 <Col><strong>Engine: </strong>{item.Engine}</Col>
-                                                <Col className="text-center offset-2"><b>Price:</b> <span className="dollar">$</span><span className="itemPrice"> {item.price}</span>
+                                                <Col className="text-center offset-2  price"><b>Price:</b> <span className="dollar">$</span><span className="itemPrice"> {item.price}</span>
                                                 </Col>
                                             </Row>
                                             <Button className='myCarBtn btn btn-light rounded-0 mt-3  mb-3' onClick={()=>{handleClick(item)}}><ChevronBarRight className="text-danger"/> HIRE CAR</Button>       

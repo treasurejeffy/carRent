@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,376;1,6..12,376&family=Nunito:ital,wght@0,632;1,632&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,376;1,6..12,376&family=Nunito:ital,wght@0,700;1,700&family=Roboto+Slab:wght@100..900&display=swap');
+
 .aboutUs{
     background-image: url(/src/carImages/bmw.jpg);
     background-size: cover;
@@ -21,19 +24,29 @@
 
 }
 
-.navLinks{
-    font-weight: 480;
-    color: #828585;
-    font-size: 16px;
+.navlinks{
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 376;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
 }
 
-.navLinks :hover{
-    color: black;
+.navlinks :hover{
+    color: red;
 }
 
 #aboutus{
     color: #fb2726;
-    font-weight: 500;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 376;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
 }
 
 .AboutUsDescription {
@@ -55,12 +68,15 @@
 }
 
 .carDealer{
-    font-size: 20px;
+    font-size: 29px;
 }
 
-.myWelcomeAddress  article{
+.carDealer article{
     letter-spacing: 1px;
-    font-size: 17px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .myFooter{

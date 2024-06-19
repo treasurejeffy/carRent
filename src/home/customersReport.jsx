@@ -46,25 +46,25 @@ export default function CustomersReport (props) {
                     itemClass="carousel-item-padding-40-px"
                     centerMode={true} 
                     >
-                        <Card  className="px-1 border-0">
+                        <Card  className=" mx-2 border-0">
                             <CardImg src="https://media.istockphoto.com/id/1287386675/photo/beautiful-afro-woman.jpg?s=612x612&w=0&k=20&c=QF3oh2mmIhaMBylis1ny3nLyowegnLQe6KlLjR5ZyaA=" alt="client"  className="img-fluid" />
-                            <article className="bg-light p-3 article"><PersonCheck/> "Lorem consectetur adipisicing elit. Quae, soluta voluptatem obcaecati ad, laboriosam sed saepe esse "</article>
+                            <article className="bg-light p-3 article"><PersonCheck className="text-dark fs-4 fw-bold"/> "Lorem consectetur adipisicing elit. Quae, soluta voluptatem obcaecati ad, laboriosam sed saepe esse "</article>
                         </Card>
-                        <Card  className="px-1 border-0">
+                        <Card  className="mx-2 border-0">
                             <CardImg src="https://images.pexels.com/photos/1197132/pexels-photo-1197132.jpeg?auto=compress&cs=tinysrgb&w=600" alt="client"  className="img-fluid"/>
-                            <article className="bg-light p-3 article"><PersonCheck/> "Fentore iure tempore error, tempora, nulla aperiam repellendus recusandae itaque, dolorum ex?"</article>                            
+                            <article className="bg-light p-3 article"><PersonCheck className="text-secondary fs-4 fw-bold"/> "Fentore iure tempore error, tempora, nulla aperiam repellendus recusandae itaque, dolorum ex?"</article>                            
                         </Card>
-                        <Card className="px-1 border-0">
+                        <Card className="mx-2 border-0">
                             <CardImg src="https://media.istockphoto.com/id/1400969440/photo/emotional-african-american-man-with-african-hairstyle.jpg?s=612x612&w=0&k=20&c=4uThGdZnsVzw2pH4bpbNXT8c2PCDsJrqTaMNuHd46Qc=" alt="client" className="img-fluid" />
-                            <article className="bg-light p-3 article"><PersonCheck/> "Lorem ipsum dolor sit amet c repellendus recusandae itaque, dolorum excepturi odit at ni?"</article>
+                            <article className="bg-light p-3 article"><PersonCheck className="text-warning fs-4 fw-bold"/> "Lorem ipsum dolor sit amet c repellendus recusandae itaque, dolorum excepturi odit at ni?"</article>
                         </Card>
-                        <Card className="px-1 border-0">
+                        <Card className="mx-2 border-0">
                               <CardImg src="https://media.istockphoto.com/id/1494508936/photo/happy-excited-and-phone-with-black-woman-in-studio-for-text-message-notification-and-social.jpg?s=612x612&w=0&k=20&c=9h-m2tus81J0dKxb81KEEXDy1Xoo84mZ7bjVGwDjEro=" alt=" client" className="img-fluid" />
-                            <article className="bg-light p-3 article"><PersonCheck/> "Lorem ipsum repellendus recusandae itaque, dolorum excepturi odit at nihil tenetur sequi eum eieeoeolo 7uyj?"</article>                          
+                            <article className="bg-light p-3 article"><PersonCheck className="text-primary fs-4 fw-bold"/> "Lorem ipsum repellendus recusandae itaque, dolorum excepturi odit at nihil tenetur sequi eum eieeoeolo 7uyj?"</article>                          
                         </Card>
-                        <Card className="px-1 border-0" >
+                        <Card className="mx-2 border-0" >
                             <CardImg src="https://images.pexels.com/photos/818819/pexels-photo-818819.jpeg?auto=compress&cs=tinysrgb&w=600" alt="client" className="img-fluid"/>
-                            <article className="bg-light p-3 article"><PersonCheck/> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, soluta voluptatem obcaecati ad, ljkklda</article>                            
+                            <article className="bg-light p-3 article"><PersonCheck className="text-success fs-4 fw-bold"/> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, soluta voluptatem obcaecati ad, ljkklda</article>                            
                         </Card>
                 </Carousel>               
             </Container>

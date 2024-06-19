@@ -107,7 +107,7 @@
       "Gearbox":  "Manual",
       "year":  2022,
       "millage": "5000km",
-      "doors": 4,
+      "doors": 2,
       "AC": "Used",
       "price": 58000
    },
@@ -119,7 +119,7 @@
       "Gearbox":  "Manual",
       "year":  2022,
       "millage": "5200km",
-      "doors": 4,
+      "doors": 2,
       "AC": "Used",
       "price": 58200
    }

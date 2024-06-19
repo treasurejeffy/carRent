@@ -12,19 +12,19 @@ export default function AboutUs() {
             <section className="aboutUs">
                 <Container>
                     <Navbar expand="lg" sticky="top" id="navbar" className="px-4">                            
-                        <Navbar.Brand href="/" ><span id="logo">GENU</span>HIRE</Navbar.Brand>
+                        <Navbar.Brand href="/" className="fw-bolder" ><span id="logo">GENU</span>HIRE</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0"/>
                         <Navbar.Collapse id="basic-navbar-nav" >
                             <Nav  id="links"  className="m-auto" >
-                                <Nav.Link href="/" title="You"  className="navLinks">Home</Nav.Link>
-                                <Nav.Link href="/aboutUs" title="Notification" className="navLinks" id="aboutus">About Us</Nav.Link>
-                                <Nav.Link href="/ourServices" title="Favourite Items" className="navLinks">Our Services</Nav.Link>
-                                <Nav.Link href="/OurCarColumn" className="navLinks">Our New Cars</Nav.Link>
-                                <Nav.Link href="/contactUs" className="navLinks">Contact Us</Nav.Link>
+                                <Nav.Link href="/" title="You"  className="navlinks">Home</Nav.Link>
+                                <Nav.Link href="/aboutUs" title="Notification" className="navlinks" id="aboutus">About Us</Nav.Link>
+                                <Nav.Link href="/ourServices" title="Favourite Items" className="navlinks">Our Services</Nav.Link>
+                                <Nav.Link href="/OurCarColumn" className="navlinks">Our New Cars</Nav.Link>
+                                <Nav.Link href="/contactUs" className="navlinks">Contact Us</Nav.Link>
                             </Nav>
-                            <Nav  id="links"  className="m-auto" >                    
+                            <Nav  id="links"  className="ms-auto" >                    
                                 <Nav.Link href="#/about" title="Search" className="searchIcon"><Search/></Nav.Link>
-                                <Nav.Link href="#/about" title="Search" className="searchIcon"><GlobeEuropeAfrica/></Nav.Link>
+                                <Nav.Link href="https://www.google.com/maps" title="Search" className="searchIcon"><GlobeEuropeAfrica/></Nav.Link>
                                 <Nav.Link href="#/about" title="Search" className="searchIcon"><DatabaseDash/></Nav.Link>
                             </Nav>
                         </Navbar.Collapse>                

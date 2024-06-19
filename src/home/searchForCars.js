@@ -83,12 +83,12 @@ export default function SearchForCars(props) {
             <section className="mySearchDisplay">
                 <Form className="mySearchForm">
                     <Container className="bg-light form-search">
-                        <Row lg={5} md={2} sm={2} xs={2} className="py-2 px-2">
+                        <Row lg={5} md={2} sm={2} xs={2} className="py-2 px-2 d-flex">
                             <Col><Form.Control className="rounded-0 text my-1 " placeholder="Make" onChange={(e) => setMake( e.target.value)}/></Col>
                             <Col><Form.Control className="rounded-0 text my-1 " placeholder="Brand" onChange={(e) => setBrand( e.target.value)}/></Col>
                             <Col><Form.Control className="rounded-0 text my-1 " placeholder="Engine" onChange={(e) => setEngine( e.target.value)}/></Col>
                             <Col><Form.Control className="rounded-0 text my-1 " placeholder="Year" onChange={(e) => setYear( e.target.value)}/></Col>
-                            <Col className="text-center"><Button className="rounded-0 px-4 py-2  my-1 d-none-sm"   typeof="submit" onClick={handSubmitForm}>SEARCH <Search/></Button></Col>
+                            <Col className="justify-content-center"><Button className="rounded-0 px-4 py-2  my-1 d-none-sm"   typeof="submit" onClick={handSubmitForm}>SEARCH <Search/></Button></Col>
                         </Row>
                     </Container>
                 </Form>
